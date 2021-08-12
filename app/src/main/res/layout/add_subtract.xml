@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#131D25"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center|start"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerID2"
+            android:background="#131D25"
+            android:entries="@array/spinner_items"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_down"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:textColor="#F6F4F4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginLeft="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="October23, 2020"
+                android:textColor="#F6F4F4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/date1id_add"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_calender"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Years"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#F6F4F4" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Months"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#F6F4F4" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Days"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="#F6F4F4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/year_edId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#FBF9F9"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#070606" />
+
+            <EditText
+                android:id="@+id/month_edID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#FBF9F9"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#070606" />
+
+            <EditText
+                android:id="@+id/day_edID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#FBF9F9"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#070606" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+            <Button
+                android:id="@+id/addbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:checked="true"
+                android:background="@drawable/btn_background2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#070505" />
+
+            <Button
+                android:layout_marginLeft="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subtract"
+                android:id="@+id/subbutton"
+                android:textColor="#090707"
+                android:background="@drawable/btn_background2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:gravity="clip_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#F6F4F4" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00-00-0000"
+            android:textColor="#F6F4F4"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/showdateid_add"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

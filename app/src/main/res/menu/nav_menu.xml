@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <item android:title="Calculator" >
+        <menu>
+            <group android:checkableBehavior="single" >
+            <item
+                android:id="@+id/nav_standard"
+                android:icon="@drawable/calculator_s"
+                android:title="Standard" />
+            <item
+                android:id="@+id/nav_scientific"
+                android:icon="@drawable/test"
+                android:title="Scientific" />
+            <item
+                android:id="@+id/nav_programmer"
+                android:icon="@drawable/coding"
+                android:title="Programmer" />
+            <item
+                android:id="@+id/nav_date"
+                android:icon="@drawable/calendar"
+                android:title="Date Calculation" />
+            </group>
+
+        </menu>
+
+    </item>
+    <item android:title="Converter" >
+        <menu>
+            <group android:checkableBehavior="single" >
+            <item
+                android:id="@+id/nav_currency"
+                android:icon="@drawable/coin"
+                android:title="Currency" />
+            <item
+                android:id="@+id/nav_length"
+                android:icon="@drawable/metter"
+                android:title="Length" />
+            <item
+                android:id="@+id/nav_temperature"
+                android:icon="@drawable/heat"
+                android:title="Temperature" />
+            <item
+                android:id="@+id/nav_time"
+                android:icon="@drawable/clock"
+                android:title="Time" />
+            <item
+                android:id="@+id/nav_data"
+                android:icon="@drawable/infographic"
+                android:title="Data" />
+            </group>
+
+        </menu>
+
+    </item>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/info"
+            android:title="About" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="Contact us" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback" />
+
+
+
+</menu>

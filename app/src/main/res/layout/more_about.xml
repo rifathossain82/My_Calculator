@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WINCAL - Calculator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#031923"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's new"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#031923"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/more_info"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#031923"
+        />
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About this app"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textColor="#031923"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/more_info2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.Standard\n2.Scientific\n3.Programmer\n4.Date Calculation "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nThere are many converter here. For Example \n1.Currency\n2.Length\n3.Temperature\n4.Time\n5.Data "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nI think it's very useful in our daily life. And I hope it makes easy and simple your life"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nIf you think it's a good app, please share this app with your friend and family person.\n\nThank you."
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#031923"
+            />
+    </LinearLayout>
+</ScrollView>
